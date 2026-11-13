@@ -1,0 +1,769 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-30T00:00:00+00:00",
+  "source_versions": {
+    "operations": "r1",
+    "reference": "r1"
+  },
+  "observations": [
+    {
+      "observation_id": "obs-0-5",
+      "device_id": "device-0",
+      "reference_id": "reference-a",
+      "event_id": "rain-1",
+      "observed_at": "2026-08-06T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "value": 9,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-0-10",
+      "device_id": "device-0",
+      "reference_id": "reference-a",
+      "event_id": "rain-2",
+      "observed_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "value": 14,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-0-15",
+      "device_id": "device-0",
+      "reference_id": "reference-a",
+      "event_id": "rain-3",
+      "observed_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "value": 19,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-0-20",
+      "device_id": "device-0",
+      "reference_id": "reference-a",
+      "event_id": "rain-4",
+      "observed_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "value": 4,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-0-25",
+      "device_id": "device-0",
+      "reference_id": "reference-a",
+      "event_id": "rain-5",
+      "observed_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "value": 9,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-0-30",
+      "device_id": "device-0",
+      "reference_id": "reference-a",
+      "event_id": "rain-6",
+      "observed_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "value": 14,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-0-35",
+      "device_id": "device-0",
+      "reference_id": "reference-a",
+      "event_id": "rain-7",
+      "observed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "value": 19,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-0-40",
+      "device_id": "device-0",
+      "reference_id": "reference-b",
+      "event_id": "rain-8",
+      "observed_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "value": 4,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-0-45",
+      "device_id": "device-0",
+      "reference_id": "reference-b",
+      "event_id": "rain-9",
+      "observed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "value": 9,
+      "reference_value": 5,
+      "quality": "pending",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-0-50",
+      "device_id": "device-0",
+      "reference_id": "reference-b",
+      "event_id": "rain-10",
+      "observed_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "value": 14,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-0-55",
+      "device_id": "device-0",
+      "reference_id": "reference-b",
+      "event_id": "rain-11",
+      "observed_at": "2026-09-25T00:00:00+00:00",
+      "available_at": "2026-09-26T00:00:00+00:00",
+      "value": 19,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-0-60",
+      "device_id": "device-0",
+      "reference_id": "reference-b",
+      "event_id": "rain-12",
+      "observed_at": "2026-09-30T00:00:00+00:00",
+      "available_at": "2026-10-01T00:00:00+00:00",
+      "value": 4,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-0-65",
+      "device_id": "device-0",
+      "reference_id": "reference-b",
+      "event_id": "rain-13",
+      "observed_at": "2026-10-05T00:00:00+00:00",
+      "available_at": "2026-10-06T00:00:00+00:00",
+      "value": 9,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-0-70",
+      "device_id": "device-0",
+      "reference_id": "reference-b",
+      "event_id": "rain-14",
+      "observed_at": "2026-10-10T00:00:00+00:00",
+      "available_at": "2026-10-11T00:00:00+00:00",
+      "value": 14,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-1-5",
+      "device_id": "device-1",
+      "reference_id": "reference-a",
+      "event_id": "rain-1",
+      "observed_at": "2026-08-06T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "value": 9,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-1-10",
+      "device_id": "device-1",
+      "reference_id": "reference-a",
+      "event_id": "rain-2",
+      "observed_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "value": 14,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-1-15",
+      "device_id": "device-1",
+      "reference_id": "reference-a",
+      "event_id": "rain-3",
+      "observed_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "value": 19,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-1-20",
+      "device_id": "device-1",
+      "reference_id": "reference-a",
+      "event_id": "rain-4",
+      "observed_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "value": 4,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-1-25",
+      "device_id": "device-1",
+      "reference_id": "reference-a",
+      "event_id": "rain-5",
+      "observed_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "value": 9,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-1-30",
+      "device_id": "device-1",
+      "reference_id": "reference-a",
+      "event_id": "rain-6",
+      "observed_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "value": 14,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-1-35",
+      "device_id": "device-1",
+      "reference_id": "reference-a",
+      "event_id": "rain-7",
+      "observed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "value": 19,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-1-40",
+      "device_id": "device-1",
+      "reference_id": "reference-b",
+      "event_id": "rain-8",
+      "observed_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "value": 4,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-1-45",
+      "device_id": "device-1",
+      "reference_id": "reference-b",
+      "event_id": "rain-9",
+      "observed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "value": 9,
+      "reference_value": 5,
+      "quality": "pending",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-1-55",
+      "device_id": "device-1",
+      "reference_id": "reference-b",
+      "event_id": "rain-11",
+      "observed_at": "2026-09-25T00:00:00+00:00",
+      "available_at": "2026-09-26T00:00:00+00:00",
+      "value": 19,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-1-60",
+      "device_id": "device-1",
+      "reference_id": "reference-b",
+      "event_id": "rain-12",
+      "observed_at": "2026-09-30T00:00:00+00:00",
+      "available_at": "2026-10-01T00:00:00+00:00",
+      "value": 4,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-1-65",
+      "device_id": "device-1",
+      "reference_id": "reference-b",
+      "event_id": "rain-13",
+      "observed_at": "2026-10-05T00:00:00+00:00",
+      "available_at": "2026-10-06T00:00:00+00:00",
+      "value": 9,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-1-70",
+      "device_id": "device-1",
+      "reference_id": "reference-b",
+      "event_id": "rain-14",
+      "observed_at": "2026-10-10T00:00:00+00:00",
+      "available_at": "2026-10-11T00:00:00+00:00",
+      "value": 14,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-2-5",
+      "device_id": "device-2",
+      "reference_id": "reference-a",
+      "event_id": "rain-1",
+      "observed_at": "2026-08-06T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "value": 5,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-2-10",
+      "device_id": "device-2",
+      "reference_id": "reference-a",
+      "event_id": "rain-2",
+      "observed_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "value": 10,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-2-15",
+      "device_id": "device-2",
+      "reference_id": "reference-a",
+      "event_id": "rain-3",
+      "observed_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "value": 15,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-2-20",
+      "device_id": "device-2",
+      "reference_id": "reference-a",
+      "event_id": "rain-4",
+      "observed_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "value": 0,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-2-25",
+      "device_id": "device-2",
+      "reference_id": "reference-a",
+      "event_id": "rain-5",
+      "observed_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "value": 5,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-2-30",
+      "device_id": "device-2",
+      "reference_id": "reference-a",
+      "event_id": "rain-6",
+      "observed_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "value": 10,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-2-35",
+      "device_id": "device-2",
+      "reference_id": "reference-a",
+      "event_id": "rain-7",
+      "observed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "value": 15,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-2-40",
+      "device_id": "device-2",
+      "reference_id": "reference-b",
+      "event_id": "rain-8",
+      "observed_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "value": 0,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-2-45",
+      "device_id": "device-2",
+      "reference_id": "reference-b",
+      "event_id": "rain-9",
+      "observed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "value": 5,
+      "reference_value": 5,
+      "quality": "pending",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-2-50",
+      "device_id": "device-2",
+      "reference_id": "reference-b",
+      "event_id": "rain-10",
+      "observed_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "value": 10,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-2-55",
+      "device_id": "device-2",
+      "reference_id": "reference-b",
+      "event_id": "rain-11",
+      "observed_at": "2026-09-25T00:00:00+00:00",
+      "available_at": "2026-09-26T00:00:00+00:00",
+      "value": 15,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-2-60",
+      "device_id": "device-2",
+      "reference_id": "reference-b",
+      "event_id": "rain-12",
+      "observed_at": "2026-09-30T00:00:00+00:00",
+      "available_at": "2026-10-01T00:00:00+00:00",
+      "value": 0,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-2-65",
+      "device_id": "device-2",
+      "reference_id": "reference-b",
+      "event_id": "rain-13",
+      "observed_at": "2026-10-05T00:00:00+00:00",
+      "available_at": "2026-10-06T00:00:00+00:00",
+      "value": 5,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-2-70",
+      "device_id": "device-2",
+      "reference_id": "reference-b",
+      "event_id": "rain-14",
+      "observed_at": "2026-10-10T00:00:00+00:00",
+      "available_at": "2026-10-11T00:00:00+00:00",
+      "value": 10,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-3-5",
+      "device_id": "device-3",
+      "reference_id": "reference-a",
+      "event_id": "rain-1",
+      "observed_at": "2026-08-06T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "value": 5,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-3-10",
+      "device_id": "device-3",
+      "reference_id": "reference-a",
+      "event_id": "rain-2",
+      "observed_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "value": 10,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-3-15",
+      "device_id": "device-3",
+      "reference_id": "reference-a",
+      "event_id": "rain-3",
+      "observed_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "value": 15,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-3-20",
+      "device_id": "device-3",
+      "reference_id": "reference-a",
+      "event_id": "rain-4",
+      "observed_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "value": 0,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-3-25",
+      "device_id": "device-3",
+      "reference_id": "reference-a",
+      "event_id": "rain-5",
+      "observed_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "value": 5,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-3-30",
+      "device_id": "device-3",
+      "reference_id": "reference-a",
+      "event_id": "rain-6",
+      "observed_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "value": 10,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-3-35",
+      "device_id": "device-3",
+      "reference_id": "reference-a",
+      "event_id": "rain-7",
+      "observed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "value": 15,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 0.2
+    },
+    {
+      "observation_id": "obs-3-40",
+      "device_id": "device-3",
+      "reference_id": "reference-b",
+      "event_id": "rain-8",
+      "observed_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "value": 0,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-3-45",
+      "device_id": "device-3",
+      "reference_id": "reference-b",
+      "event_id": "rain-9",
+      "observed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "value": 5,
+      "reference_value": 5,
+      "quality": "pending",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-3-50",
+      "device_id": "device-3",
+      "reference_id": "reference-b",
+      "event_id": "rain-10",
+      "observed_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "value": 10,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-3-55",
+      "device_id": "device-3",
+      "reference_id": "reference-b",
+      "event_id": "rain-11",
+      "observed_at": "2026-09-25T00:00:00+00:00",
+      "available_at": "2026-09-26T00:00:00+00:00",
+      "value": 15,
+      "reference_value": 15,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-3-60",
+      "device_id": "device-3",
+      "reference_id": "reference-b",
+      "event_id": "rain-12",
+      "observed_at": "2026-09-30T00:00:00+00:00",
+      "available_at": "2026-10-01T00:00:00+00:00",
+      "value": 0,
+      "reference_value": 0,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-3-65",
+      "device_id": "device-3",
+      "reference_id": "reference-b",
+      "event_id": "rain-13",
+      "observed_at": "2026-10-05T00:00:00+00:00",
+      "available_at": "2026-10-06T00:00:00+00:00",
+      "value": 5,
+      "reference_value": 5,
+      "quality": "valid",
+      "reference_error": 3
+    },
+    {
+      "observation_id": "obs-3-70",
+      "device_id": "device-3",
+      "reference_id": "reference-b",
+      "event_id": "rain-14",
+      "observed_at": "2026-10-10T00:00:00+00:00",
+      "available_at": "2026-10-11T00:00:00+00:00",
+      "value": 10,
+      "reference_value": 10,
+      "quality": "valid",
+      "reference_error": 3
+    }
+  ],
+  "pairings": [
+    {
+      "device_id": "device-0",
+      "reference_id": "reference-a",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-0",
+      "reference_id": "reference-b",
+      "start": "2026-09-10T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-1",
+      "reference_id": "reference-a",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-1",
+      "reference_id": "reference-b",
+      "start": "2026-09-10T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-2",
+      "reference_id": "reference-a",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-2",
+      "reference_id": "reference-b",
+      "start": "2026-09-10T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-3",
+      "reference_id": "reference-a",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-3",
+      "reference_id": "reference-b",
+      "start": "2026-09-10T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00"
+    }
+  ],
+  "maintenance": [
+    {
+      "device_id": "device-0",
+      "batch_id": "offset",
+      "completed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-1",
+      "batch_id": "offset",
+      "completed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-2",
+      "batch_id": "normal",
+      "completed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00"
+    },
+    {
+      "device_id": "device-3",
+      "batch_id": "normal",
+      "completed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00"
+    }
+  ],
+  "quality_revisions": [
+    {
+      "observation_id": "obs-1-45",
+      "quality": "invalid",
+      "available_at": "2026-11-04T00:00:00+00:00"
+    }
+  ],
+  "reference_outages": [
+    {
+      "reference_id": "reference-b",
+      "start": "2026-09-20T00:00:00+00:00",
+      "end": "2026-09-25T00:00:00+00:00"
+    }
+  ],
+  "baseline_case_id": "demo-process-20260802"
+}
